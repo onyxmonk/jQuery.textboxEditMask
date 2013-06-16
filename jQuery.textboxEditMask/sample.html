@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>jQuery.textboxEditMask - CodingMonk</title>
+	<script src="Scripts/jquery-2.0.2.js"></script>
+	<script src="Scripts/codingmonk/jQuery.textboxEditMask.js"></script>
+</head>
+<body>
+<h1>Sample textbox edit masks</h1><br />
+<table>
+	<tr><td>Phone Number </td><td><input editMask="(###) ###-####" defaultEditMask="(   )    -    " /></td></tr> 
+	<tr><td>Social Security (auto-generated empty pattern) </td><td><input editMask="###-##-####" /></td></tr> 
+	<tr><td>Time 12 hour (validation)</td><td><input editMask="[ #]#[*[ 0][1-9]|1[0-2]]:[0-5]# [AP]M" defaultEditMask="12:00 AM" /></td></tr> 
+	<tr><td>Date (basic validation)</td><td><input editMask="[ #]#[*[ 0]#|1[0-2]]/*[ 0123]#[*[ 012]#|3[01]]/*[12]#[*19|2[01]]##" defaultEditMask="          " /></td></tr> 
+</table>	
+</body>
+</html>
