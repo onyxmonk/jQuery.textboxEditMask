@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="sample.html" />
     <Content Include="Scripts\codingmonk\jQuery.textboxEditMask.js">
       <DependentUpon>jQuery.textboxEditMask.ts</DependentUpon>
     </Content>
@@ -69,7 +70,6 @@
     <Content Include="Scripts\jquery-2.0.2.min.js" />
     <Content Include="Scripts\typings\codingmonk\CodingMonk.TextboxEditMask.d.ts" />
     <Content Include="Scripts\typings\jquery\jquery.d.ts" />
-    <Content Include="test.html" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-2.0.2.min.map" />
   </ItemGroup>
@@ -77,7 +77,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
